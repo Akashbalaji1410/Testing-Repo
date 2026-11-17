@@ -1,0 +1,9 @@
+name: Static lint fixture
+on: workflow_dispatch
+permissions: {}
+jobs:
+  fixture:
+    if: ${{ false }}
+    runs-on: ubuntu-lastest
+    steps:
+      - run: echo "Static analysis fixture"
